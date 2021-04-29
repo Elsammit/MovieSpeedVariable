@@ -54,7 +54,7 @@ int main(){
 	std::thread th1(KeyInput);	// キー入力スレッド生成.
 
 	// 動画読み取り.
-	VideoCapture cap("Forest - 49981.mp4");
+	VideoCapture cap("動画ファイルパス");
   	if(!cap.isOpened()) return -1;
 	int max_frame = cap.get(CAP_PROP_FRAME_COUNT); 	//フレーム数.
 	int fps = cap.get(CAP_PROP_FPS);				// FPS.
