@@ -1,0 +1,4 @@
+g++ MovieSpeedVariable.cpp `pkg-config --cflags --libs opencv4` -pthread -o opencv_test
+
+
+
